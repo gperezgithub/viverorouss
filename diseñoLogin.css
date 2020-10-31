@@ -1,0 +1,56 @@
+body{
+    background-image: url(fondos/fondoVivero5.jpg);
+    color:white;
+    margin:0;
+    padding:0;
+    font-family: "Roboto", sans-serif;
+    text-align:center;
+    background-size:100%;
+    
+
+}
+
+header>a{
+    text-decoration: none;
+       
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+
+}
+
+#caja1{
+    background-color:salmon;
+}
+
+#caja1>a{
+    text-decoration: none;
+    color:#eee;
+}
+
+
+input[type="text"], input[type="password"]{
+    outline:none;
+    padding:20px;
+    display: block; /*Para que se muestre un input debajo del otro*/
+    width: 300px;
+    border-radius:3px;
+    border: 1px solid #eee;
+    margin: 20px auto;
+}
+
+input[type="submit"]{
+    padding:10px;
+    color: #fff;
+    background:#0098cb;
+    width:320px;
+    margin:20px auto;
+    margin-top:0;
+    border:0;
+    border-radius:3px;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background-color:#00b8eb;
+}
+

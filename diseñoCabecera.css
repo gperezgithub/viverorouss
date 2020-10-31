@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding:0;
+    
+    font-family: "Roboto", sans-serif;
+    text-align:center;
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+#cabecera{      
+    background-color:green;     
+    font-family: "Roboto", sans-serif;
+    color:#eee;
+    text-align:left;
+    height:110px;
+   
+}
+
+#logo{
+    width:90px;
+    height:90px;
+}
+
+#cajon1{
+    float:left;
+   
+    width:400px;
+    margin-left:20px;
+    margin-top:30px;
+    
+}
+
+#cajon2{
+    float:left;
+    margin-top:30px;
+    margin-left:20px;
+    
+}
+
+#icono{
+  float:left;
+  
+  width:20px;
+  margin-left:90px;
+  margin-top:30px;
+}
+
+#icono2{
+    float:left;
+    width:20px;
+    margin-left:10px;
+    margin-top:30px;
+}
